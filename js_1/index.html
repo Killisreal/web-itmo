@@ -1,47 +1,32 @@
 <!DOCTYPE html>
-<html>
-
 <head>
-  <title>Table</title>
+  <title>Forms</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div id="creation">
-    <p>Enter width:</p>
-    <input class="c-inp" type="text" id="width">
-    <p>Enter height:</p>
-    <input class="c-inp" type="text" id="height">
-    <button class="c-btn" type="button" onclick="createTable()">Create table</button>
-  </div>
-  <div id="functions" hidden="true">
-    <div class="param">
-      <input type="text" maxlength="3" size="5" oninput="changeButton()"></input>
-      <select onchange="changeButton()">
-        <option value="none">none</option>
-        <option value="dotted">dotted</option>
-        <option value="dashed">dashed</option>
-        <option value="solid">solid</option>
-        <option value="double">double</option>
-      </select>
-      <button id="border-btn" type="button" onclick="tableSetBorder()">Set border</button>
-    </div>
-    <div class="param">
-      <input type="text" id="tablename"></input>
-      <button type="button" onclick="tableSetName(this.parentElement.children[0].value)">Set table name</button>
-    </div>
-    <div class="param">
-      <input type="number"></input>
-      <button type="button" onclick="tableRemoveRow(this.parentElement.children[0].value)">Remove row</button>
-    </div>
-    <div class="small param" onclick="MAGIC()">
-      <button type="button">Magic</button>
-    </div>
-    <div class="small param" onclick="tableDelete()">
-      <button type="button">Delete</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
+<p>Contents:</p>
+  <p><a href="#pic1">Picture 1</a></p>
+  <p><a href="#pic2">Picture 2</a></p>
+  <p><a href="#pic3">Picture 3</a></p>
+  <p><a href="#pic4">Picture 4</a></p>
+  <p><a href="https://youtu.be/jNQXAC9IVRw">Picture 5</a></p>
+  <p><a href="#stuff">JS thing</a></p>
+  <div><img id="pic1" src="https://upload.wikimedia.org/wikipedia/ru/e/eb/The_Dark_Side_of_the_Moon.jpg" width="300" height="300"></div>
+  <div><img id="pic2" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Acdc_backinblack_cover.jpg" width="640" height="640"></div>
+  <div><img id="pic3" src="https://upload.wikimedia.org/wikipedia/ru/b/be/The_Beatles_1_album_cover.jpg" width="250" height="260"></div>
+  <div><img id="pic4" src="https://upload.wikimedia.org/wikipedia/ru/5/59/Thriller_cover.jpg" width="450" height="450"></div>
+  <span id="stuff"></span>
+  <p><a class="table-link" href="https://vk.com/">SocNetwork</a></p>
+  <p><a class="table-link" href="https://telegram.org/">Messanger</a></p>
+  <p><a class="table-link" href="https://worldoftanks.ru/">Game</a></p>
+  <p><a class="table-link" href="https://tankionline.com/play/">Game</a></p>
+  <p><a class="table-link" href="https://de.ifmo.ru/">ITMO</a></p>
+  <p><a class="table-link" href="https://isu.ifmo.ru/">ITMO</a></p>
+  <p><a class="table-link" href="https://boardgamearena.com/">Game</a></p>
+  <p><a class="table-link" href="https://www.google.ru/">Search</a></p>
+  <p><a class="table-link" href="https://yandex.ru/">Search</a></p>
+  <p><a class="table-link" href="https://xn--80aesfpebagmfblc0a.xn--p1ai/">Corona</a></p>
+  <div><a href="#table"><button class="table-link" type="button" onclick="createTable()">Create links table</button></a></div>
+  <script src='script.js'></script>
 </body>
- </html>
