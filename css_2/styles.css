@@ -1,0 +1,62 @@
+body {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(https://img4.goodfon.ru/wallpaper/nbig/f/7a/pontorezka-academeg-pontorezka-range-rover.jpg);
+  height: 100vh;
+}
+
+div {
+  min-width: 200px;
+  min-height: 100px;
+  background-size: cover;
+  background-size: contain;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-image: url(https://previews.123rf.com/images/amicabel/amicabel1802/amicabel180200047/94746090-design-seamless-monochrome-zigzag-pattern-abstract-background-vector-art.jpg);
+}
+
+#content {
+  padding: 100px 20px;
+  margin-bottom: 0;
+  min-height: 80vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: -16px auto;
+  width: 40%;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQY5aEReys_zinZsLemI7YvAXpPBXdZuzwDt-DMVkP7-HvOi4XW&usqp=CAU);
+}
+
+.block {
+  position: fixed;
+  height: 300px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+#block1 {
+  left: 30px;
+  top: 225px;
+  background-image: url(https://cdn.statically.io/img/wallpapercave.com/wp/wp3486784.jpg);
+}
+
+#block2 {
+  right: 30px;
+  top: 375px;
+  background-image: url(https://lh3.googleusercontent.com/proxy/nYUMcNph1S52g6sdy-XtcsW-AmVwWGibo-GeXOjv7qSVShqGpFE0w9cOVl6XOQUNV_izhXbh0Sr9BuTAi9L17yWuc62lwVOXNgZOusN_jhK1wZrr_4AmbkSD9-TKFsYhtDKGwKSkjIkWViBkUZ3NUtASU9par2vxZYXW8n2ova7NZ2IlMeIOSMXBvkfDFiZ8y7Y0E4R5uMRhCdf4KNdOMGp0K8E);
+}
